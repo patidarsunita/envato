@@ -1,0 +1,229 @@
+.section{
+  background-color: #262626;
+  background-image: url(im.webp);
+  background-size: cover;
+
+}
+
+.head{
+  
+  display: flex;
+   align-items: center; 
+  background-color: #262626;
+
+}
+.head .img{
+  background-color:transparent black;
+ margin-top: 5px;
+ display: flex;
+}
+.head button{
+  margin-left: 1030px;
+  font-size: 14px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10%;
+  color: aliceblue;
+  background-color: #82b440;
+  border-color:#82b440 ;
+  box-shadow:0 2px 0 #6f9a37;  
+}
+.line{
+    display: flex;
+    background-color: black;
+}
+.line h1{
+  color:whitesmoke;
+  font-size: 20px;
+}
+ .line .logo{  
+    margin-left: 60%;
+    margin-top: 10px;
+    display: flex;
+    gap:30px;
+    cursor: pointer;
+}
+.line:first-child{
+  color: red;
+}
+.titles{
+display: flex;
+gap: 400px;
+position:fixed;
+background-color: #262626;
+}
+.titles .img{
+  font-size: 14px;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 52px;
+  margin-top: 18px;
+  color:whitesmoke;
+  cursor: pointer;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 600px;
+  color:#fff;
+  margin: 200px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.nav:hover{
+  color: red;
+}
+ .text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400px;
+  color: #fff;
+  word-spacing: 3px;
+  margin-bottom: 30px;
+
+}
+.text :first-child{
+  color: red;
+  word-spacing: 2px;
+}
+.section2 .box{
+  display: flex;
+  gap :30px;
+  justify-content: center;
+  
+}
+ .section2 .box .first{
+  height: 350px;
+  width: 250px;
+  border: solid rgb(226, 221, 221) 1px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+  box-shadow: #fff;
+}
+.section2 .box .img{
+  margin-top: 30px;
+}
+.section2 .box2 .first{
+  height: 350px;
+  width: 250px;
+  border: solid rgb(226, 221, 221) 1px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.section2 .box2 .img{
+  margin-top: 30px;
+}
+ .box2{
+  display: flex;
+  gap :30px;
+  justify-content: center;
+}
+.section3{
+  display: flex;
+  height: 350px;
+  width: 1350px;
+  background-color: rgb(34, 33, 33);
+  margin-top: 90px;
+  gap: 120px;
+}
+.section3 .footer{
+  padding-top: 30px;
+  margin-left: 40px;
+  color: whitesmoke;
+
+}
+.section3 .first{
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.section3 .footer2 {
+  color: whitesmoke;
+  padding-top: 30px;
+  margin-left: 30px;
+  
+}
+.section3 .footer2 .second:hover{
+  color: red;
+  cursor: pointer;
+}
+.section3 .footer2 .second{
+padding-top: 8px;
+border-bottom: 1px solid #868484;
+    margin-bottom: 2px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 200px;
+}
+.section3 .footer3 {
+  color: whitesmoke;
+  padding-top: 30px;
+  margin-left: 30px;
+}
+.section3 .footer3 .second:hover{
+  color: red;
+  cursor: pointer;
+}
+.section3 .footer3 .second{
+padding-top: 8px;
+border-bottom: 1px solid #868484;
+    margin-bottom: 2px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 200px;
+}
+.section3 .footer4 {
+  color: whitesmoke;
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-right: 1px;
+  cursor: pointer;
+}
+.section3 .footer4 .second{
+  padding-top: 25px;
+}
+.section4{
+  display: flex;
+  background-color: rgb(49, 48, 48);
+  
+}
+.section4 .for{
+  display: flex;
+  color: whitesmoke;
+  gap: 3px;
+}
+.section4 .for div{
+  color: black;
+  margin-top: 15px;
+
+}
+.section4 .img{
+  margin-top: 15px;
+}
+.section4 .fore{
+  margin-left: 55%;
+margin-top: 15px;
+display: flex;
+gap: 20px;
+cursor: pointer;
+}
+.section4 .for h4:hover{
+  color: red;
+  cursor: pointer;
+}
+.section4 .footer2 .botom{
+  border-bottom: 1px solid #797777;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: left; 
+}
